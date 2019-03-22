@@ -2,6 +2,7 @@
 
 user_word <- readline("insert word :")
 
+# Apriori algorithm
 data_user  <- apriori(dataSet1, parameter = list(support=0.1,
                                                  confidence = 0.01,
                                                  minlen=2,
